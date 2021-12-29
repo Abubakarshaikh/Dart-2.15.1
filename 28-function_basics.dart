@@ -1,0 +1,1 @@
+// Don’t repeat yourself
