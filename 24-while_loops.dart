@@ -177,16 +177,16 @@
 // 1 2 3 5 8 13 21
 // }
 
-// --------------------------------- SERIES --------------------
+// ---------------------------------  fibonacci series --------------------
 
-void main() {
-  int nm1 = 1;
-  int nm2 = 1;
-  int result = 1;
-  while (nm1 <= 1000) {
-    print(result);
-    result = nm1 + nm2;
-    nm2 = nm1;
-    nm1 = result;
-  }
-}
+// void main() {
+//   int nm1 = 1;
+//   int nm2 = 1;
+//   int result = 1;
+//   while (nm1 <= 1000) {
+//     print(result);
+//     result = nm1 + nm2;
+//     nm2 = nm1;
+//     nm1 = result;
+//   }
+// }
