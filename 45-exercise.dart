@@ -67,15 +67,51 @@
 // Input a password (You are agreeing to the above Terms and Conditions.): abcd1234
 // Password is valid: abcd1234
 
-
 // 8. Write a Java method to find all twin prime numbers less than 100.
 // Expected Output:
 
-// (3, 5)                                                   
-// (5, 7)                                                   
-// (11, 13)                                                 
-// (17, 19)                                                 
-// (29, 31)                                                 
-// (41, 43)                                                 
-// (59, 61)                                                 
-// (71, 73) 
+// (3, 5)
+// (5, 7)
+// (11, 13)
+// (17, 19)
+// (29, 31)
+// (41, 43)
+// (59, 61)
+// (71, 73)
+
+// 9. input 3 even find max even number
+// void main() {
+//   final result = isMaxEven(6, 8, 2);
+//   print(result);
+// }
+
+// int isMaxEven(int v1, int v2, int v3) {
+//   if (v1 % 2 == 0 && v2 % 2 == 0 && v1 > v2 && v3 % 2 == 0 && v1 > v3) {
+//     return v1;
+//   } else if (v2 % 2 == 0 && v1 % 2 == 0 && v2 > v1 && v3 % 2 == 0 && v2 > v3) {
+//     return v2;
+//   } else if (v3 % 2 == 0 && v2 % 2 == 0 && v3 > v2 && v1 % 2 == 0 && v3 > v1) {
+//     return v3;
+//   } else {
+//     return 0;
+//   }
+// }
+
+// 10.
+
+// void main() {
+//   final result = isMaxEven(6, 8, 2);
+//   print(result);
+// }
+
+// int isMaxEven(int v1, int v2, int v3) {
+//   if (v1 % 2 == 0 && v2 % 2 == 0 && v1 > v2 && v3 % 2 == 0 && v1 > v3) {
+//     return v1;
+//   } else if (v2 % 2 == 0 && v1 % 2 == 0 && v2 > v1 && v3 % 2 == 0 && v2 > v3) {
+//     return v2;
+//   } else if (v3 % 2 == 0 && v2 % 2 == 0 && v3 > v2 && v1 % 2 == 0 && v3 > v1) {
+//     return v3;
+//   } else {
+//     return 0;
+//   }
+// }
