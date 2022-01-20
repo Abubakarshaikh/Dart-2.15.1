@@ -79,7 +79,7 @@
 // (59, 61)
 // (71, 73)
 
-// 9. input 3 even find max even number
+// 9. input 3 even fint max even number
 // void main() {
 //   final result = isMaxEven(6, 8, 2);
 //   print(result);
@@ -97,21 +97,25 @@
 //   }
 // }
 
-// 10.
+// 10. find max even number in three input (2,3,10)
 
-// void main() {
-//   final result = isMaxEven(6, 8, 2);
-//   print(result);
-// }
+void main() {
+  final int result = isMaxEven(13, 14, 8);
+  print(result);
+}
 
-// int isMaxEven(int v1, int v2, int v3) {
-//   if (v1 % 2 == 0 && v2 % 2 == 0 && v1 > v2 && v3 % 2 == 0 && v1 > v3) {
-//     return v1;
-//   } else if (v2 % 2 == 0 && v1 % 2 == 0 && v2 > v1 && v3 % 2 == 0 && v2 > v3) {
-//     return v2;
-//   } else if (v3 % 2 == 0 && v2 % 2 == 0 && v3 > v2 && v1 % 2 == 0 && v3 > v1) {
-//     return v3;
-//   } else {
-//     return 0;
-//   }
-// }
+int isMaxEven(int v1, int v2, int v3) {
+  if (v1 % 2 == 0 && (v1 > v2 || v2 % 2 != 0) && (v1 > v3 || v3 % 2 != 0)) {
+    return v1;
+  } else if (v2 % 2 == 0 &&
+      (v2 > v1 || v1 % 0 != 0) &&
+      (v2 > v3 || v3 % 2 != 0)) {
+    return v2;
+  } else if (v3 % 2 == 0 &&
+      (v3 > v1 || v1 % 2 != 0) &&
+      (v3 > v2 || v2 % 2 != 0)) {
+    return v3;
+  } else {
+    return 0;
+  }
+}
