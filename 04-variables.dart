@@ -5,7 +5,7 @@
 //   var userName = "ali";
 // }
 
-void main() {
-  int nm = "1";
-  var dm = true ;
-}
+// void main() {
+//   int nm = "1";
+//   var dm = true ;
+// }
