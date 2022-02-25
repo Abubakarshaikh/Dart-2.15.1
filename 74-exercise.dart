@@ -1,8 +1,13 @@
-class Student {
-  final int rollNo;
-  final String name;
+void main() {
+  Pakistan();
+  Pakistan.newPakistan();
+  Pakistan.oldPakistan();
+  Pakistan.myPakistan();
 }
 
-class Exam {
-  final Stud
+class Pakistan {
+  Pakistan();
+  Pakistan.newPakistan();
+  factory Pakistan.oldPakistan() => Pakistan();
+  static myPakistan() {}
 }
