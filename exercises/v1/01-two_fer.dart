@@ -5,15 +5,11 @@
 // However, if the name is missing, return the string 'you':
 // [One for you, one for me.]
 
-// void main() {
-//   final fromFunc = twoFer();
-//   print(fromFunc);
-// }
+void main() {
+  final fromFunc = twoFer();
+  print(fromFunc);
+}
 
-// String twoFer([String name = 'you']) {
-//   return 'One for $name, one for me.';
-// }
-
-twoFer([String name = 'you']) {
-  return 'One for $name, one for mae.';
+String twoFer([String name = 'you']) {
+  return 'One for $name, one for me.';
 }
