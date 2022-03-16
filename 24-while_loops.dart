@@ -190,3 +190,21 @@
 //     nm1 = result;
 //   }
 // }
+
+// Arthmetic operators: + , -, /, *, %
+// Logical operators: || ,  &&
+// Comparison operators: ==,
+// Assignment operators: +=, -= , =
+// Incre - Decre : ++ , --
+
+void main() {
+  int i = 0;
+
+  while (i < 10) {
+    while (10 > i) {
+      print("---$i---");
+    }
+
+    i++;
+  } // outer
+}

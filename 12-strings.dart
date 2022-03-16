@@ -12,15 +12,15 @@
 // name and their age. Print out a message
 // that tells how many years they have to be 100 years old.
 
-import 'dart:io';
+// import 'dart:io';
 
-void main() {
-  stdout.write("What's your name? ");
-  String name = stdin.readLineSync().toString();
+// void main() {
+//   stdout.write("What's your name? ");
+//   String name = stdin.readLineSync().toString();
 
-  print("Hi, $name! What is your age?");
-  int age = int.parse(stdin.readLineSync().toString());
+//   print("Hi, $name! What is your age?");
+//   int age = int.parse(stdin.readLineSync().toString());
 
-  int yearsToHunderd = 100 - age;
-  print("$name, You have $yearsToHunderd years to be 100");
-}
+//   int yearsToHunderd = 100 - age;
+//   print("$name, You have $yearsToHunderd years to be 100");
+// }

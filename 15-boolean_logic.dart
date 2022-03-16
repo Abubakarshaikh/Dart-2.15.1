@@ -1,6 +1,6 @@
 // operator precedence
 // Overriding precedence with parentheses
 void main() {
-  // 1. &&
-  // 2. || 
+  print(2 < 2 || 2 == 2);
+  print(2 < 2 && 2 == 2);
 }

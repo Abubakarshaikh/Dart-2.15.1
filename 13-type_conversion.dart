@@ -7,4 +7,7 @@ void main() {
 
   String name = 'ali';
   name = 720.toString();
+
+  String ten = "10";
+  int intTen = int.parse(ten);
 }

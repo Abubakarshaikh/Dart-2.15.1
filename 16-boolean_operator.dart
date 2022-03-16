@@ -13,6 +13,20 @@
 // 4. <=
 // 5. ==
 // 6. !=
+// void main() {
+//   int i = 0;
+//   while (i == 0) {
+//     while (0 == 0) {
+//       print("---True---");
+//       i = 1;
+//     }
+//   }
+// }
+
 void main() {
-  
+  print(2 == 2);
+  print(3 != 3);
+  print(400 >= 4);
+  print(1 > 1);
+  print(0 < 0);
 }
