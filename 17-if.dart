@@ -82,10 +82,19 @@
 //         }
 //  }
 
-import 'dart:io';
+// import 'dart:io';
 
-void main() {
-  print("ENTER ANY INTEGER.");
-  int user = int.tryParse(stdin.readLineSync()!) ?? 0;
-  print("YOUR ENTER NUMBER IS $user");
-}
+// void main() {
+//  print("ENTER ANY INTEGER.");
+//  int user = int.tryParse(stdin.readLineSync()!) ?? 0;
+//  print("YOUR ENTER NUMBER IS $user");
+// }
+
+// void main(){
+
+//   //   print(); // String, boolean, int
+//   //   if() //boolean:true, false
+
+//    if(){}
+
+// }

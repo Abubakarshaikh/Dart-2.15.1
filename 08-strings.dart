@@ -23,4 +23,35 @@
 
 //   int yearsToHunderd = 100 - age;
 //   print("$name, You have $yearsToHunderd years to be 100");
-// }
+//}
+
+
+
+    //  void main(){
+    //      // My Subject is English
+    //     String subject1 = 'English';
+    //     String subject2 = 'Urdu';
+
+    //     String allSubjects = subject1 + subject2;
+            
+    //            print(allSubjects);        
+    //  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

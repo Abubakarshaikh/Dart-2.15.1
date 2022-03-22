@@ -197,14 +197,61 @@
 // Assignment operators: +=, -= , =
 // Incre - Decre : ++ , --
 
-void main() {
-  int i = 0;
+// void main() {
+//   int i = 0;
 
-  while (i < 10) {
-    while (10 > i) {
-      print("---$i---");
-    }
+//   while (i < 10) {
+//     while (10 > i) {
+//       print("---$i---");
+//     }
 
-    i++;
-  } // outer
-}
+//     i++;
+//   } // outer
+// }
+
+// import 'dart:io';
+
+// void main() {
+//   int i = 0;
+//   while (i < 3) {
+//     int j = 0;
+//     while (j < 3) {
+//       stdout.write(i);
+//       j++;
+//     }
+//     print("");
+//     i++;
+//   }
+// }
+
+// *********
+//     *
+//     *
+//     *
+//     *
+// *********
+
+// import 'dart:io';
+
+// void main() {
+//   int i = 0;
+//   while (i <= 5) {
+//     int j = 0;
+//     while (j < 9) {
+//       if ((i == 0 && j < 9) ||
+//           (i == 1 && j == 4) ||
+//           (i == 2 && j == 4) ||
+//           (i == 3 && j == 4) ||
+//           (i == 4 && j == 4) ||
+//           (i == 5 && j < 9)) {
+//         stdout.write("*");
+//       } else {
+//         stdout.write(" ");
+//       }
+//       j++;
+//     }
+//     print("");
+//     i++;
+//   }
+// }
+
