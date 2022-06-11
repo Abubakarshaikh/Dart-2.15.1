@@ -101,3 +101,18 @@
 // 543
 // 54
 // 5
+
+import 'dart:io';
+
+void main() {
+  int i = 1;
+  while (i <= 5) {
+    int j = 5;
+    while (j >= i) {
+      stdout.write(j);
+      j--;
+    }
+    print("");
+    i++;
+  }
+}
